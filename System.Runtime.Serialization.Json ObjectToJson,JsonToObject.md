@@ -1,7 +1,7 @@
-##System.Runtime.Serialization.Json.DataContractJsonSerializer
+## System.Runtime.Serialization.Json.DataContractJsonSerializer
 
 
-###แปลง Object เป็น JsonString
+### แปลง Object เป็น JsonString
 
 ```
 Using ms As New System.IO.MemoryStream()
@@ -16,7 +16,7 @@ End Using
 ```
 
 
-###แปลง Json String ให้เป็น Object
+### แปลง Json String ให้เป็น Object
 ```
 Public Shared Function JsonStringTo(Of T)(ByVal jsonStr As String) As T
     If String.IsNullOrEmpty(jsonStr) Then Return Nothing
