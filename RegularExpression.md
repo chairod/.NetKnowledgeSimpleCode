@@ -1,7 +1,7 @@
 #### เว็บที่ใช้ทดสอบ Regular expression  
 https://regex101.com/  
 
-### รูปแบบการเขียน Position Lookbehind  รูปแบบ (?<=Pattern ที่ต้องการเขียน)
+### รูปแบบการเขียน Positive Lookbehind  รูปแบบ (?<=Pattern ที่ต้องการเขียน)
 **ตัวอย่าง**  
 ```
 (?<=\d)\s{2,}
