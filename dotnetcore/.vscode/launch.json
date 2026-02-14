@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: helloConsole",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/helloConsole/helloConsole.csproj",
+            "launchConfigurationId": "TargetFramework=;helloConsole"
+        }
+    ]
+}
